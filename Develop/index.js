@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
-// const generateMarkdown = require("./utils/generateMarkdown");
+const generateMarkdown = require("./utils/generateMarkdown");
 // TODO: Create an array of questions for user input
 const questions = [
   {
@@ -21,7 +21,7 @@ const questions = [
     choices: [
       "Apache",
       "Boost",
-      "BSD 3",
+      "BSD3",
       "Eclipse",
       "GPLv3",
       "MIT",
@@ -63,38 +63,8 @@ const questions = [
   },
 ];
 
-const template = (answers) => `# ${answers.title}
-
-## Description
-${answers.description}
-
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [Questions](#questions)
-
-## Installation
-${answers.installation}
-## Usage
-${answers.usage}
-## License
-${answers.license}
-## Contributing
-${answers.contributions}
-## Tests
-${answers.tests}
-## Questions
-
-Have questions? Contact me through GitHub here: https://github.com/${answers.github}.
-Or email me here: ${answers.email}.
-We look forward to hearing from you!`;
-
 inquirer.prompt(questions).then((answers) => {
-  fs.writeFile("README.md", template(answers), (error) => {
+  fs.writeFile("README.md", generateMarkdown(answers), (error) => {
     if (error) {
       console.log(error);
     }
