@@ -47,7 +47,7 @@ THEN I am taken to the corresponding section of the README
 
 The following video displays the application's functionality:
 
-![The README Generator allows users to create README files using the command line](https://drive.google.com/file/d/1-R-4A07AlAxoP2yRAy4fY7olF1BEDC-P/view)
+[View Walkthrough here](https://drive.google.com/file/d/1-R-4A07AlAxoP2yRAy4fY7olF1BEDC-P/view)
 
 ## Questions
 
