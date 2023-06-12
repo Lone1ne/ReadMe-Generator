@@ -1,8 +1,7 @@
-# README-Generator
-
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# README Generator
 ## Description
-This is a project that will generate a readme file for the user by answering questions through the command line.
-
+ This is a project that will generate a readme file for the user by answering questions through the command line.
 ## Table of Contents
 
 - [Installation](#installation)
@@ -13,17 +12,17 @@ This is a project that will generate a readme file for the user by answering que
 - [Questions](#questions)
 
 ## Installation
-The user will need to install a command line to be able to use the application.
+Test
 ## Usage
-clone the repo and then use the command line to answer the questions, when completed the user will then be able to view their generated README in the file folder.
+Test
 ## License
-
+  This project is licensed under the Apache license. Link to license: (https://opensource.org/licenses/Apache-2.0)
 ## Contributing
-
+Test
 ## Tests
-
+Test
 ## Questions
 
 Have questions? Contact me through GitHub here: https://github.com/Lone1ne.
-Or email me here: derekszcz45@gmail.com.
+Or email me here: derek@gmail.com.
 We look forward to hearing from you!
