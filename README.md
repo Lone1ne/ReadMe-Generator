@@ -10,9 +10,9 @@ This application helps developers spend less time creating documentation, leavin
 
 ## Table of Contents
 
-- [User Story](#userstory)
-- [Acceptance Criteria](#acceptancecriteria)
-- [Mock-Up](#mockup)
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Mock-Up](#mock-up)
 - [Questions](#questions)
 
 ## User Story
